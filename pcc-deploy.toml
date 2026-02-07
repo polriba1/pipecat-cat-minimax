@@ -1,5 +1,5 @@
 agent_name = "catalan-voice-agent"
-image = "DOCKER_USERNAME/catalan-voice-agent:0.1"
+image = "ghcr.io/polriba1/pipecat-cat-minimax:latest"
 secret_set = "catalan-voice-agent-secrets"
 agent_profile = "agent-1x"
 region = "eu-central"

@@ -1,0 +1,13 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+*.md
+test_services.py
+deploy.sh
+env.example
+.dockerignore
+.gitignore

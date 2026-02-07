@@ -1,0 +1,12 @@
+[project]
+name = "pipecat-cat-minimax"
+version = "0.1.0"
+description = "Agent de veu en català amb Pipecat (Deepgram + Groq + MiniMax 2.6)"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pipecat-ai[webrtc,daily,silero,deepgram,groq,runner]",
+    "pipecat-ai-cli",
+    "python-dotenv",
+    "aiohttp",
+]
